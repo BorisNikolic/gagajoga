@@ -324,7 +324,7 @@ visibility: hidden; line-height: 0; height: 0;}*/
 .navigation-search i { color: #fff; margin-top: 17px; float: right; }
 
 /*-------------- page header ------------*/
-.page-header { background: linear-gradient(rgba(35, 40, 40, 0.7), rgba(35, 40, 40, 0.7)), rgba(35, 40, 40, 0.7) url(../images/page-header.jpg) no-repeat center; background-size: cover; margin: 0; }
+.page-header { background: linear-gradient(rgba(35, 40, 40, 0.7), rgba(35, 40, 40, 0.7)), rgba(35, 40, 40, 0.7) url(../images/casovi_joga_u_beogradu.jpg) no-repeat center; background-size: cover; margin: 0; }
 .page-caption { padding: 105px 0; }
 .page-title { color: #fff; }
 .page-containt { font-size: 14px; color: #fff; }
@@ -355,7 +355,7 @@ visibility: hidden; line-height: 0; height: 0;}*/
 .footer-call { margin-bottom: 5px; }
 .footer-email { }
 .footer-link { }
-.footer-link a i { color: #a4a7a6; font-size: 14px; }
+.footer-link a i { color: #393d3c; font-size: 14px; }
 .footer-link a i:hover { color: #34d4a2; }
 .footer-widget i { font-size: 30px; color: #34d4a2; padding-right: 10px; padding-top: 4px; }
 .footer-widget .form-control { height: 44px; color: #fff; background-color: #202322; border: 0px solid; }
@@ -513,7 +513,7 @@ opacity: .5; }
 
 /* service section */
 .service-block { position: relative; }
-.service-img { background: linear-gradient(rgba(235, 246, 245, 0.9), rgba(235, 246, 245, 0.9)), rgba(235, 246, 245, 0.9) }
+.service-img { background: linear-gradient(rgba(235, 246, 245, 0.9), rgba(235, 246, 245, 0.9)), rgba(235, 246, 245, 0.9); }
 .service-caption { background-color: #90d7d6; padding-left: 10px; position: absolute; width: 100%; bottom: 0px; padding: 12px; }
 .service-title { font-size: 18px; color: #fff; margin-bottom: 0px; }
 .service-schedule { float: left; margin-right: 50px; text-transform: uppercase; font-size: 14px;}
@@ -546,7 +546,11 @@ opacity: .5; }
 .contact-info li i { display: block; position: absolute; top: 3px; left: 0; width: 30px; font-size: 18px; text-align: center; color: #90d7d6; }
 .map { height: 400px; }
 
-/*-------------- other css ------------*/
+/*-------------- CUSTOM CSS ------------*/
+html {
+  scroll-behavior: smooth !important;
+}
+.footer-link a i { color: #393d3c; font-size: 14px; }
 hr { border-top: 1px solid #ebefee; margin-bottom: 30px; margin-top: 30px; }
 
 /*-------------- home page css ------------*/
@@ -600,9 +604,4 @@ hr { border-top: 1px solid #ebefee; margin-bottom: 30px; margin-top: 30px; }
   .footer-logo{margin-bottom: 30px;}
   .comment-info{padding-left: 0px;}
   .comment-author img{float: none; margin-bottom: 30px;}
-}
-
-/* Custom CSS */
-html {
-  scroll-behavior: smooth !important;
 }
