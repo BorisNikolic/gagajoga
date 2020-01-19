@@ -84,7 +84,7 @@ strong { font-weight: 600; }
 
 /*--------- btn default --------*/
 .btn-default { color: #fff; background-color: #EFB0A1; }
-.btn-default:hover { color: #fff; background-color: #dbb8f2; }
+.btn-default:hover { color: #fff; background-color: #C9B7AD; }
 .btn-default.focus, .btn-default:focus { color: #fff; background-color: #EFB0A1; }
 
 /*--------- btn primary --------*/
